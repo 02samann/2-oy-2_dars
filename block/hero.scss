@@ -1,0 +1,102 @@
+.login_container{
+  // width: 1440px;
+  // height: 650px;
+  padding: 150px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/backgro.svg);
+}
+
+
+
+.login_info{
+  position: relative;
+}
+
+.login_info::after{
+  width: 234px;
+  height: 62px;
+  display: block;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/bg_rtx.svg);
+  position: absolute;
+  bottom: 15%;
+  left: 85%;
+}
+
+.login_title{
+  width: 500px;
+  font-family: Space Mono;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.login_subs__text{
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.login_text{
+  width: 405px;
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.login_btn{
+  color: #fff;
+  margin-top: 40px;
+  font-size: 15px;
+  font-family: Space Mono;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: #fcb72b;
+  padding: 14px 39px;
+  cursor: pointer;
+}
+
+.login_subs__text{
+  position: relative;
+}
+
+.login_subs__text::before{
+  width: 203px;
+  height: 13px;
+  display: block;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/back1_line.svg);
+  position: absolute;
+  top: 20%;
+  left: -25%;
+}
+
+.login_main_link::after{
+  width: 446px;
+  height: 99px;
+  display: block;
+  content: "";
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/back2_line.svg);
+  position: absolute;
+  bottom: 27%;
+  left: 37%;
+}
+
+
+
+
