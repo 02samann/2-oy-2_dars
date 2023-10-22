@@ -374,7 +374,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/container.svg);
+  background-image: url(../img/footer_main.svg);
 }
 
 .mail_content {
@@ -504,11 +504,10 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  content: "";
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/footer_container.svg);
+  background-image: url(../img/footer.4955.svg);
 }
 
 .apple_content {
@@ -600,7 +599,7 @@ body {
   line-height: 25px;
 }
 
-.site_btn_link {
+.site_btn_main_link {
   border: none;
   color: #fff;
   text-align: center;
@@ -612,6 +611,15 @@ body {
       flex-shrink: 0;
   padding: 14px 39px;
   text-decoration: none;
+  -webkit-box-shadow: 2px 10px 10px -4px black;
+          box-shadow: 2px 10px 10px -4px black;
+  cursor: pointer;
+}
+
+.site_btn_main_link:hover {
+  background-color: #840000;
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
 }
 
 .login_container {
